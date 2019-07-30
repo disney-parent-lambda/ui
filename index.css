@@ -90,9 +90,9 @@ video {
     font-size: 100%;
     vertical-align: baseline;
     font-family: 'Inconsolata',
-    monospace;
+        monospace;
     font-family: 'Domine',
-    serif;
+        serif;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -139,4 +139,11 @@ table {
 
 * {
     box-sizing: border-box;
+}
+
+/* indexhtml*/
+
+/*carosel*/
+.carosel {
+    position: relative;
 }
