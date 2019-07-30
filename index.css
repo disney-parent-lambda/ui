@@ -142,22 +142,37 @@ table {
 }
 
 /* indexhtml*/
-header h1 {
-    align-items: center;
-    display: flex;
+header {
+    border: 1px solid red;
+
 }
 
-header nav {
+nav a {
     display: flex;
     justify-content: flex-end;
+    border: 1px solid blue;
 }
 
-/*carosel*/
-.carosel {
-    position: relative;
-    width: 90%;
+h1 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border: 1px solid green;
 }
 
-img {
-    width: 80%;
-}
+    /*carosel*/
+    .carosel {
+        position: relative;
+        width: 90%;
+    }
+
+    .container {
+        width: 80%;
+        border: 1px solid red;
+        height: 500px;
+    }
+
+    img {
+        width: 485px;
+        height: 720px;
+    }

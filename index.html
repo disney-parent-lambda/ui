@@ -28,20 +28,28 @@
       }
     </style>
   </head>
-  <!-- jQuery first, then Bootstrap JS. -->
-  <script
-    src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-  <script
-    src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
-  <body>
-    <header>
-      <section class="header">
-        <h1>Disney Passes</h1>
-        <nav>
-          <a href="index.html">Home</a>
-          <a href="about.html">About</a>
-        </nav>
-      </section>
+  <header>
+    <section class="header">
+      <h1>Disney Passes</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+      </nav>
+    </section>
+    <p>Wanting to go to Disney? Not sure if you want to hang with kids or have
+      date day or date night? You can do both! Meet other parents that might
+      want to do the same and swap your passes. Maybe you wanna take the
+      children around and you have daycare passes. You can see if someone wants
+      to swap with you for stroller passes. Maybe you wanna do paret date ad
+      want to do a date parent time you can see if someone wants to swap daycare
+      passes. This app will let you do that. You can meet other parents that are
+      visiting the theme and arrange to swap there passes. </p>
+    <!-- jQuery first, then Bootstrap JS. -->
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script
+      src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
+    <body>
       <div class="container">
         <div class="row">
           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
@@ -82,8 +90,8 @@
 
                 <div class="carousel-item">
                   <img
-                    src="images/bluebackground.jpg"
-                    alt="Third Slide" />
+                    src="images/bluebackground.jpg" alt="Third Slide"
+                    />
                   <div class="carousel-caption">
                     <h2>Stroller Passes</h2>
                     <p>Want to make family memories? When having that much fun
@@ -92,46 +100,40 @@
                     </p>
                   </div>
 
+                  <div class="carousel-item">
+                    <img
+                      src="images/disneycastle.jpg"
+                      alt="Fourth Slide" />
+                  </div>
+                </div>
 
-              <div class="carousel-item">
-                <img
-                  src="images/castle.jpg"
-                  alt="Fouth Slide" />
+
+                <a class="left carousel-control"
+                  href="#carousel-example-generic"
+                  role="button" data-slide="prev">
+                  <span class="icon-prev" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+
+                <a class="right carousel-control"
+                  href="#carousel-example-generic"
+                  role="button" data-slide="next">
+                  <span class="icon-next" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
               </div>
-          </div>
-
-              <div class="carousel-item">
-                <img
-                  src="images/disneycastle.jpg"
-                  alt="fifth Slide" />
-              </div>
-      </div>
- </div>
-
-              <a class="left carousel-control" href="#carousel-example-generic"
-                role="button" data-slide="prev">
-                <span class="icon-prev" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-
-              <a class="right carousel-control" href="#carousel-example-generic"
-                role="button" data-slide="next">
-                <span class="icon-next" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
             </div>
           </div>
         </div>
-      </div>
 
-    </header>
-    <footer>
-
-    </footer>
-    <script>
+      </header>
+      <footer>
+        <p>2019 Disney Passes</p>
+      </footer>
+      <script>
 	$('.carousel').carousel({
 		interval: 3000
 	})
 </script>
-  </body>
-</html>
+    </body>
+  </html>
