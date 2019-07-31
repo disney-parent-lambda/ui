@@ -138,11 +138,12 @@ table {
 }
 
 .container {
-    width: 95%;
+    width: 880px;
 
-    margin: 30px;
+    margin: 0 auto;
 }
 
+/*indexhtml */
 /*header*/
 header {
     display: flex;
@@ -151,6 +152,8 @@ header {
     border: 2px solid red;
     margin: 20px;
     padding: 15px;
+    color: #24009c;
+    background-color: #10eaf0;
 }
 
 header nav {
@@ -185,9 +188,14 @@ img {
 
 }
 
+p {
+    background-color: #0028ff;
+    color: #f1f4df;
+}
+
 .top-img,
 .header-img,
-.middle-img .bottom-img {
+.middle-img {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -203,4 +211,11 @@ img {
 footer {
     display: flex;
     justify-content: center;
+    background-color: #24009c;
+    color: #10eaf0;
 }
+
+/*Mediasindex */
+
+/*abouthtml */
+/*Mediasabout */
