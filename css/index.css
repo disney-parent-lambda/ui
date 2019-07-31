@@ -218,9 +218,9 @@ footer {
 }
 
 /*Mediasindex */
-@media screen and (min-width: 500px) {
+@media (max-width: 800px) {
     .container {
-        width: 500px;
+        width: 800px;
         margin: 0 auto;
         background-color: #10eaf0;
     }
@@ -259,7 +259,7 @@ footer {
             monospace;
 
     }
-}
 
-/*abouthtml */
-/*Mediasabout */
+
+    /*abouthtml */
+    /*Mediasabout */
