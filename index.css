@@ -140,39 +140,3 @@ table {
 * {
     box-sizing: border-box;
 }
-
-/* indexhtml*/
-header {
-    border: 1px solid red;
-
-}
-
-nav a {
-    display: flex;
-    justify-content: flex-end;
-    border: 1px solid blue;
-}
-
-h1 {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border: 1px solid green;
-}
-
-/*carosel*/
-.carosel {
-    position: relative;
-    width: 90%;
-}
-
-.container {
-    width: 80%;
-    border: 1px solid red;
-    height: 500px;
-}
-
-img {
-    width: 485px;
-    height: 720px;
-}
