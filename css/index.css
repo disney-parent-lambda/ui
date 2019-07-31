@@ -138,9 +138,9 @@ table {
 }
 
 .container {
-    width: 880px;
-
+    width: 980px;
     margin: 0 auto;
+    background-color: #f1f4df;
 }
 
 /*indexhtml */
@@ -149,7 +149,6 @@ header {
     display: flex;
     justify-content: center;
     align-content: center;
-    border: 2px solid red;
     margin: 20px;
     padding: 15px;
     color: #24009c;
@@ -164,14 +163,15 @@ header nav {
 
 header nav a {
     justify-content: space-around;
-    border: 2px solid green;
+    padding: 20px;
+
 }
 
 h1 {
     display: flex;
     justify-content: flex-start;
-    border: 2px solid blue;
     width: 50%;
+    padding: 20px;
     font-family: 'Inconsolata',
         monospace;
 
@@ -191,6 +191,8 @@ img {
 p {
     background-color: #0028ff;
     color: #f1f4df;
+    font-family: 'Domine',
+        serif;
 }
 
 .top-img,
@@ -216,6 +218,48 @@ footer {
 }
 
 /*Mediasindex */
+@media screen and (min-width: 500px) {
+    .container {
+        width: 500px;
+        margin: 0 auto;
+        background-color: #10eaf0;
+    }
+
+    /*header*/
+    header {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        margin: 20px;
+        padding: 15px;
+        color: #0028ff;
+        background-color: #f1f4df;
+    }
+
+    header nav {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        width: 100%;
+    }
+
+    header nav a {
+        display: flex;
+        align-content: center;
+        padding: 20px;
+
+    }
+
+    .header h1 {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        padding: 15px;
+        font-family: 'Inconsolata',
+            monospace;
+
+    }
+}
 
 /*abouthtml */
 /*Mediasabout */
