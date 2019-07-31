@@ -160,19 +160,19 @@ h1 {
     border: 1px solid green;
 }
 
-    /*carosel*/
-    .carosel {
-        position: relative;
-        width: 90%;
-    }
+/*carosel*/
+.carosel {
+    position: relative;
+    width: 90%;
+}
 
-    .container {
-        width: 80%;
-        border: 1px solid red;
-        height: 500px;
-    }
+.container {
+    width: 80%;
+    border: 1px solid red;
+    height: 500px;
+}
 
-    img {
-        width: 485px;
-        height: 720px;
-    }
+img {
+    width: 485px;
+    height: 720px;
+}

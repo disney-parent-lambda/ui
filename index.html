@@ -4,136 +4,47 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title></title>
     <link rel="stylesheet" href="css/index.css">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet"
-      href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
-    <style>
-      .sky
-      {
-        color: #24009C;
-        background-color:#10EAF0;
-      }
-      .navy
-      {
-        color: #F1F4DF;
-        background-color: #0028FF;
-      }
-      .blue
-      {
-        color: #10EAF0;
-        background-color: #24009C;
-      }
-    </style>
+
   </head>
-  <header>
-    <section class="header">
-      <h1>Disney Passes</h1>
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-      </nav>
-    </section>
-    <p>Wanting to go to Disney? Not sure if you want to hang with kids or have
-      date day or date night? You can do both! Meet other parents that might
-      want to do the same and swap your passes. Maybe you wanna take the
-      children around and you have daycare passes. You can see if someone wants
-      to swap with you for stroller passes. Maybe you wanna do paret date ad
-      want to do a date parent time you can see if someone wants to swap daycare
-      passes. This app will let you do that. You can meet other parents that are
-      visiting the theme and arrange to swap there passes. </p>
-    <!-- jQuery first, then Bootstrap JS. -->
-    <script
-      src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script
-      src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
+  <div class="container">
     <body>
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-            <br />
+      <header>
+        <h1>Disney Passes</h1>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+        </nav>
 
-            <div id="carousel-example-generic" class="carousel slide"
-              data-ride="carousel">
-              <ol class="carousel-indicators">
-                <li data-target="#carousel-example-generic" data-slide-to="0"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="4"></li>
-              </ol>
-
-              <div class="carousel-inner" role="listbox">
-                <div class="carousel-item active">
-                  <img
-                    src="images/welcome sign disney.jpeg"
-                    alt="First Slide" />
-                </div>
-
-                <div class="carousel-item">
-                  <img
-                    src="images/bluemicky.jpg"
-                    alt="Second Slide" />
-
-                  <div class="carousel-caption">
-                    <h2>Childcare Passes</h2>
-                    <p>Planning a date night (or even a date day!) at Disney
-                      World
-                      and need somebody to watch the kids? No worries; Disney
-                      has
-                      you covered. Swap for childcare passes. </p>
-                  </div>
-                </div>
-
-
-                <div class="carousel-item">
-                  <img
-                    src="images/bluebackground.jpg" alt="Third Slide"
-                    />
-                  <div class="carousel-caption">
-                    <h2>Stroller Passes</h2>
-                    <p>Want to make family memories? When having that much fun
-                      is
-                      just exhausting! SO, why not swap for stroller passes.
-                    </p>
-                  </div>
-
-                  <div class="carousel-item">
-                    <img
-                      src="images/disneycastle.jpg"
-                      alt="Fourth Slide" />
-                  </div>
-                </div>
-
-
-                <a class="left carousel-control"
-                  href="#carousel-example-generic"
-                  role="button" data-slide="prev">
-                  <span class="icon-prev" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-
-                <a class="right carousel-control"
-                  href="#carousel-example-generic"
-                  role="button" data-slide="next">
-                  <span class="icon-next" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
-              </div>
-            </div>
-          </div>
+        <div class="header-img">
+          <img src="images/welcome sign disney.jpeg" alt="header-img">
+        </div>
+      </header>
+      <p>Wanting to go to Disney? Not sure if you want to hang with kids or have
+        date day or date night? You can do both! Meet other parents that might
+        want to do the same and swap your passes. Maybe you wanna take the
+        children around and you have daycare passes.
+        <div class="middle-img">
+          <img src="images/bluemicky.jpg" alt="middle-img">
+        </div>
+        <p>You can see if someone wants to swap with you for stroller passes.
+          Maybe you wanna do paret date ad
+          want to do a date parent time you can see if someone wants to swap
+          daycare
+          passes. This app will let you do that. You can meet other parents that
+          are
+          visiting the theme and arrange to swap there passes. </p>
+        <div class="bottom-img">
+          <img src="images/bluebackground.jpg" alt="bottom-img">
         </div>
 
-      </header>
-      <footer>
-        <p>2019 Disney Passes</p>
-      </footer>
-      <script>
-	$('.carousel').carousel({
-		interval: 3000
-	})
-</script>
+        <footer>
+          <div class="footer-img">
+            <img src="images/disneycastle.jpg" alt="footer-img">
+          </div>
+          <p>2019 Disney Passes</p>
+        </footer>
+      </div>
     </body>
   </html>
