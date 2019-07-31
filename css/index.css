@@ -88,11 +88,11 @@ video {
     padding: 0;
     border: 0;
     font-size: 100%;
-    vertical-align: baseline;
     font-family: 'Inconsolata',
         monospace;
     font-family: 'Domine',
         serif;
+    vertical-align: baseline;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -135,8 +135,4 @@ q:after {
 table {
     border-collapse: collapse;
     border-spacing: 0;
-}
-
-* {
-    box-sizing: border-box;
 }
