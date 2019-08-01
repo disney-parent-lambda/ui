@@ -201,13 +201,21 @@ h1 {
 }
 
 img {
-    width: 30%;
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 15px;
     padding: 5px;
 
+}
+
+.top-img,
+.header-img,
+.middle-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 p {
@@ -217,14 +225,6 @@ p {
         serif;
     margin: 15px;
     padding: 1rem;
-}
-
-.top-img,
-.header-img,
-.middle-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 /*Footer styles*/
@@ -238,7 +238,7 @@ footer {
     display: flex;
     justify-content: center;
     background-color: #24009c;
-    color: #10eaf0;
+    color: #00FFFF;
 }
 
 /*Mediasindex */
@@ -272,6 +272,11 @@ footer {
         align-content: center;
         padding: 20px;
 
+    }
+
+    header nav a:hover {
+        text-decoration: underline;
+        color: blue;
     }
 
     .header-img {
@@ -316,6 +321,11 @@ footer {
         background-color: skyblue;
     }
 
+    .button a:hover {
+        text-decoration: underline;
+        color: skyblue;
+    }
+
     .img {
         width: 40%;
     }
@@ -339,12 +349,14 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #00FFFF;
 }
 
 h3 {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #00FFFF;
 }
 
 .img {
