@@ -330,4 +330,22 @@ footer {
 
 
 /*abouthtml */
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /*Mediasabout */
