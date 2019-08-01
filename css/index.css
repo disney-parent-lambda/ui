@@ -167,6 +167,11 @@ header nav a {
 
 }
 
+header nav a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
 h1 {
     display: flex;
     justify-content: flex-start;
@@ -178,6 +183,21 @@ h1 {
 }
 
 /*General-styles*/
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button a {
+    padding: 15px;
+}
+
+.button a:hover {
+    text-decoration: underline;
+    color: skyblue;
+}
+
 img {
     width: 30%;
     display: flex;
