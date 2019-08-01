@@ -250,6 +250,10 @@ footer {
 
     }
 
+    .header-img {
+        display: none;
+    }
+
     .header h1 {
         display: flex;
         justify-content: center;
@@ -259,7 +263,20 @@ footer {
             monospace;
 
     }
+
+    p {
+        margin: 20px;
+    }
 }
+
+@media screen and (max-width: 800px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        background-color: #0028ff;
+    }
+}
+
 
 /*abouthtml */
 /*Mediasabout */
