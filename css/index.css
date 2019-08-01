@@ -288,6 +288,7 @@ footer {
 
     }
 
+
     .img {
         width: 50%;
     }
@@ -309,6 +310,10 @@ footer {
         width: 100%;
         margin: 0 auto;
         background-color: #0028ff;
+    }
+
+    .button {
+        background-color: skyblue;
     }
 
     .img {
@@ -347,5 +352,3 @@ h3 {
     justify-content: center;
     align-items: center;
 }
-
-/*Mediasabout */
