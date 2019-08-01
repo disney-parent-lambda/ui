@@ -193,6 +193,8 @@ p {
     color: #f1f4df;
     font-family: 'Domine',
         serif;
+    margin: 15px;
+    padding: 1rem;
 }
 
 .top-img,
@@ -264,8 +266,19 @@ footer {
 
     }
 
-    p {
+    .img {
+        width: 50%;
+    }
+
+    .header-img {
+        display: none;
+    }
+
+    .p {
         margin: 20px;
+        font-family: 'Domine',
+            serif;
+
     }
 }
 
@@ -274,6 +287,22 @@ footer {
         width: 100%;
         margin: 0 auto;
         background-color: #0028ff;
+    }
+
+    .img {
+        width: 40%;
+    }
+
+    .header-img {
+        display: none;
+    }
+
+    .p {
+        margin: 20px;
+        padding: 5px;
+        font-family: 'Domine',
+            serif;
+
     }
 }
 
